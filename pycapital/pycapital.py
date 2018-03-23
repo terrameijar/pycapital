@@ -2,6 +2,10 @@
 # -*- coding: utf-8 -*-
 from sys import argv
 import argparse
+import sys
+import os.path
+
+sys.path.append(os.path.join(os.path.dirname(__file__), '.'))
 import country_data
 
 """Main module."""

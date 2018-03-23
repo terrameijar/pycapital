@@ -13,16 +13,16 @@ Call the ``pycapital.capital()`` function and pass a country to it as an argumen
 The ``capital()`` function will return the capital of that country or a 0 if an invalid
 country was passed to it. Capitalisation does not matter::
 
-    >>> import pycapital
-    >>> pycapital.capital("Wakanda")
+    >>> from pycapital.pycapital import capital
+    >>> capital("Wakanda")
     0
-    >>> pycapital.capital("Germany")
+    >>> capital("Germany")
     'Berlin'
-    >>> pycapital.capital("Japan")
+    >>> capital("Japan")
     'Tokyo'
-    >>> pycapital.capital("North Korea")
+    >>> capital("North Korea")
     'Pyongyang'
-    >>> pycapital.capital("lithuania")
+    >>> capital("lithuania")
     'Vilnius'
 
 Running it from the commandline.
