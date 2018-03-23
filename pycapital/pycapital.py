@@ -2,16 +2,17 @@
 # -*- coding: utf-8 -*-
 from sys import argv
 import argparse
-
+import country_data
 
 """Main module."""
 
 TTY = False  # Flag will be set to true when running script interactively
+COUNTRY_DATA = country_data.country_data  # Get list of countries and capitals
 
 
 def parse_arguments(arg):
     # Handles Commandline input
-    PROGRAM = "capitals"
+    PROGRAM = "pycapital"
     DESCRIPTION = "Displays capital city of specified country."
 
     parser = argparse.ArgumentParser(
@@ -21,31 +22,12 @@ def parse_arguments(arg):
     parser.add_argument('country', help="Displays the capital of country.",
                         nargs='+')
     args = parser.parse_args(arg)
-    country_data = ' '.join(args.country)
-    return country_data
+    country_data_list = ' '.join(args.country)
+    return country_data_list
 
 
 def get_list_of_countries():
-    # Generate a dictionary from country list file.
-    countries = {}
-
-    try:
-        country_data = open('list.txt', 'r')
-    except IOError:
-        print("Country list file could not be opened.")
-        quit()
-    try:
-        for each_line in country_data:
-            (country_name, capital_city) = each_line.split(':', 1)
-            country_name = country_name.strip()
-            capital_city = capital_city.strip()
-            countries[country_name] = capital_city  # "Japan": "Tokyo"
-        country_data.close()
-        return countries
-
-    except ValueError:
-        pass
-
+    return COUNTRY_DATA
 
 def capital(country):
     countries = get_list_of_countries()
