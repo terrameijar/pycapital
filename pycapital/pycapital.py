@@ -8,7 +8,7 @@ import os.path
 sys.path.append(os.path.join(os.path.dirname(__file__), '.'))
 import country_data
 
-"""Main module."""
+""" Main module. """
 
 TTY = False  # Flag will be set to true when running script interactively
 COUNTRY_DATA = country_data.country_data  # Get list of countries and capitals
