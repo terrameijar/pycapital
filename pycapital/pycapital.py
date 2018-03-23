@@ -30,6 +30,7 @@ def get_list_of_countries():
     return COUNTRY_DATA
 
 def capital(country):
+    """Prints capital of any given country."""
     countries = get_list_of_countries()
     usr_country = country
     if TTY:

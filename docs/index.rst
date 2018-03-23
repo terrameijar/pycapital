@@ -1,4 +1,4 @@
-Welcome to Capital Finder's documentation!
+Welcome to PyCapital's documentation!
 ======================================
 
 .. toctree::

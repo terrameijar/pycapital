@@ -12,6 +12,14 @@ pycapital.cli module
     :undoc-members:
     :show-inheritance:
 
+pycapital.country\_data module
+------------------------------
+
+.. automodule:: pycapital.country_data
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
 pycapital.pycapital module
 --------------------------
 

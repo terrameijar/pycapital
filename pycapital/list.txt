@@ -18,7 +18,7 @@ Belgium:	Brussels
 Belize:	Belmopan
 Benin:	Porto-Novo
 Bhutan:	Thimphu
-Bolivia	La Paz (administrative): Sucre (judicial)
+Bolivia:	La Paz (administrative): Sucre (judicial)
 Bosnia AndHerzegovina: 	Sarajevo
 Botswana:	Gaborone
 Brazil:	Brasilia
