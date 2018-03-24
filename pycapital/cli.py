@@ -3,14 +3,16 @@
 """Console script for pycapital."""
 import sys
 import click
+#from pycapital.pycapital import TTY, capital
+import pycapital.pycapital
 
 
 @click.command()
-def main(args=None):
+@click.argument('country', type=str)
+def main(country):
     """Console script for pycapital."""
-    click.echo("Replace this message by putting your code into "
-               "pycapital.cli.main")
-    click.echo("See click documentation at http://click.pocoo.org/")
+    pycapital.pycapital.TTY = True
+    pycapital.pycapital.capital(country)
     return 0
 
 
