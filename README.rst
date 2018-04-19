@@ -17,7 +17,7 @@ PyCapital
 
 
 Accepts country names and displays their capitals.
-![alt Pycapital]("/docs/images/pycapital.gif")
+![alt Pycapital]("https://github.com/terrameijar/pycapital/blob/master/docs/images/pycapital.gif")
 
 .. figure:: images/pycapital.gif
 
