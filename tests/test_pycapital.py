@@ -8,7 +8,7 @@ import pytest
 from click.testing import CliRunner
 
 from pycapital import pycapital
-from pycapital import cli
+# from pycapital import cli
 
 
 @pytest.fixture
