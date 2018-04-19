@@ -18,6 +18,7 @@ PyCapital
 
 Accepts country names and displays their capitals.
 
+.. figure:: images/pycapital.gif
 
 * Free software: MIT license
 * Documentation: https://pycapital.readthedocs.io.
@@ -26,7 +27,9 @@ Accepts country names and displays their capitals.
 Features
 --------
 
-* TODO
+* Returns the capital of any city.
+* Case insensitive
+
 
 Credits
 -------

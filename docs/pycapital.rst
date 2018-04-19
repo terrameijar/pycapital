@@ -4,14 +4,6 @@ pycapital package
 Submodules
 ----------
 
-pycapital.cli module
---------------------
-
-.. automodule:: pycapital.cli
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
 pycapital.country\_data module
 ------------------------------
 
