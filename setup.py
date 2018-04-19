@@ -33,11 +33,6 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
     description="Accepts country names and displays their capitals.",
-    entry_points={
-        'console_scripts': [
-            'pycapital=pycapital.cli:main',
-        ],
-    },
     install_requires=requirements,
     license="MIT license",
     long_description=readme + '\n\n' + history,
