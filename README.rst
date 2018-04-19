@@ -17,7 +17,8 @@ PyCapital
 
 
 Accepts country names and displays their capitals.
-![Pycapital](pycapital.gif)
+
+.. image:: pycapital.gif
 
 .. figure:: images/pycapital.gif
 
