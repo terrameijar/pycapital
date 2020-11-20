@@ -29,7 +29,7 @@ Accepts country names and displays their capitals.
 Features
 --------
 
-* Returns the capital of any city.
+* Returns the capital of any country.
 * Case insensitive
 
 
